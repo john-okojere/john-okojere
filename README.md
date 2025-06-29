@@ -33,18 +33,5 @@
 
 ---
 
-## 📈 GitHub Stats
-
-![ciiphernet's GitHub stats](https://github-readme-stats.vercel.app/api?username=ciiphernet&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ciiphernet&layout=compact&theme=radical)
-
----
-
-## 📬 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourusername)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter)](https://twitter.com/yourusername)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram)](https://instagram.com/yourusername)
-
 > 🔐 Passionate about **open-source**, **ethical hacking**, and helping beginners break into tech!
 
