@@ -1,5 +1,4 @@
-# 👋 Hi, I'm John Okojere (a.k.a. Ciiphernet)
-
+# 👋 Hi, I'm John Okojere
 🎯 I’m a multi-disciplinary **Tech Specialist** based in Nigeria, combining:
 - 💻 Software Development
 - 🛡️ Cybersecurity
