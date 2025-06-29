@@ -60,6 +60,6 @@
 
 ---
 
-> 💬 *Let’s build something great. I turn ideas into fully functional platforms—fast, clean, and scalable.*  
+> 💬 *Let’s build something great. I turn ideas into fully functional platforms fast, clean, and scalable.*  
 > 💻 *Available for freelance gigs, collaborations, and startup MVPs.*
 
