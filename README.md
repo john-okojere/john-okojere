@@ -27,7 +27,7 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap)
-![Kali Linux](https://img.shields.io/badge/-Kali%20Linux-557C94?style=flat&logo=linux)
+![RedHat Linux](https://img.shields.io/badge/-RedHat%20Linux-557C94?style=flat&logo=linux)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
 
