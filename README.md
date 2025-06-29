@@ -1,24 +1,24 @@
-# 👋 Hi, I'm John Okojere
-🎯 I’m a multi-disciplinary **Tech Specialist** based in Nigeria, combining:
-- 💻 Software Development
-- 🛡️ Cybersecurity
-- 🌐 Networking
-- 🚀 Innovation & UAV Systems
+# 👋 Hi, I'm John Okojere – Full-Stack Django Developer
+
+### Python Django Full-Stack Developer | Building MVPs, APIs, E-commerce, and Admin Platforms | DM for Web Projects 🚀
 
 ---
 
-## 🚀 Projects I’ve Built
+## 💡 What I Do
 
-🔹 **EV Ticketing Platform** – Modern vehicle reservation platform with live search  
-🔹 **POS System** – Lightweight POS with invoice, receipts & analytics  
-🔹 **NDC EMR System** – Electronic medical records system for hospitals  
-🔹 **Smart E-Ticketing UAV Proposal** – Combines surveillance & tracking using UAVs
+🔧 I build functional and scalable web solutions, including:
 
-👉 [Explore My Repos](https://github.com/ciiphernet?tab=repositories)
+- 🔹 E-commerce platforms with product management, payment logic & admin dashboards  
+- 🔹 POS systems with invoicing, analytics, and stock tracking  
+- 🔹 Admin dashboards and internal tools for business automation  
+- 🔹 EV ticketing & reservation systems with modern UX and smart forms  
+- 🔹 Secure medical records systems (EMRs) for clinics and hospitals  
+- 🔹 API-based platforms and MVPs for startups and enterprise use  
+- 🔹 UAV and smart surveillance tech proposal support platforms
 
 ---
 
-## 🛠️ Languages & Tools
+## 🧰 Tools & Technologies
 
 ![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python)
 ![Django](https://img.shields.io/badge/-Django-092E20?style=flat&logo=django)
@@ -26,11 +26,25 @@
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap)
-![RedHat Linux](https://img.shields.io/badge/-RedHat%20Linux-557C94?style=flat&logo=linux)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux)
+![Red Hat](https://img.shields.io/badge/-Red%20Hat-EE0000?style=flat&logo=redhat)
 
 ---
 
-> 🔐 Passionate about **open-source**, **ethical hacking**, and helping beginners break into tech!
+## 📊 GitHub Stats
+
+![ciiphernet's GitHub stats](https://github-readme-stats.vercel.app/api?username=ciiphernet&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ciiphernet&layout=compact&theme=radical)
+
+---
+
+## 🤝 Let’s Connect
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourusername)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter)](https://twitter.com/yourusername)
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram)](https://instagram.com/yourusername)
+
+> 🧠 Passionate about helping startups, businesses, and individuals turn ideas into working platforms.
 
