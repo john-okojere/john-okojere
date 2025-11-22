@@ -47,7 +47,7 @@
 
 ## 📈 GitHub Stats
 
-![John's GitHub Stats](https://github-readme-stats.vercel.app/api?username=john-okojere&show_icons=true&theme=radical)
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=john-okojere&layout=compact&theme=radical)
 
 ---
