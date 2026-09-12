@@ -11,4 +11,21 @@ menu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () 
   menuButton?.setAttribute('aria-expanded', 'false');
 }));
 
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();
+
+const footer = document.querySelector('footer');
+if (footer && !footer.querySelector('a[href*="linkedin.com/in/okojere"]')) {
+  const socialNav = document.createElement('nav');
+  socialNav.className = 'footer-social';
+  socialNav.setAttribute('aria-label', 'John Okojere contact links');
+  socialNav.innerHTML = [
+    '<a href="mailto:nnaokojere@gmail.com">Email</a>',
+    '<a href="https://www.nnaokojere.space" target="_blank" rel="noopener noreferrer">Website</a>',
+    '<a href="https://www.linkedin.com/in/okojere/" target="_blank" rel="noopener noreferrer">LinkedIn</a>',
+    '<a href="https://www.instagram.com/john_okojere" target="_blank" rel="noopener noreferrer">Instagram</a>',
+    '<a href="https://github.com/john-okojere" target="_blank" rel="noopener noreferrer">GitHub</a>',
+    '<a href="https://x.com/JohnOkojere" target="_blank" rel="noopener noreferrer">X / Twitter</a>'
+  ].join('');
+  footer.insertBefore(socialNav, footer.querySelector('small'));
+}
