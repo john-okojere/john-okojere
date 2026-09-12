@@ -1,6 +1,15 @@
 const menuButton = document.getElementById('menuBtn');
 const menu = document.getElementById('menu');
 
+const brand = document.querySelector('.brand');
+if (brand) {
+  const logoPath = brand.getAttribute('href')?.startsWith('../')
+    ? '../assets/logo/white_horizontal_logo.png'
+    : 'assets/logo/white_horizontal_logo.png';
+  brand.setAttribute('aria-label', 'John Okojere home');
+  brand.innerHTML = `<img class="brand-logo" src="${logoPath}" alt="John Okojere — Technology, Innovation, Security">`;
+}
+
 menuButton?.addEventListener('click', () => {
   const open = menu.classList.toggle('open');
   menuButton.setAttribute('aria-expanded', String(open));
