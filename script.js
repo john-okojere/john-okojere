@@ -4,37 +4,33 @@ const menu = document.getElementById('menu');
 const brand = document.querySelector('.brand');
 if (brand) {
   const logoPath = brand.getAttribute('href')?.startsWith('../')
-    ? '../assets/logo/white_horizontal_logo.png'
-    : 'assets/logo/white_horizontal_logo.png';
+    ? '../assets/optimized/logo.png'
+    : 'assets/optimized/logo.png';
   brand.setAttribute('aria-label', 'John Okojere home');
-  brand.innerHTML = `<img class="brand-logo" src="${logoPath}" alt="John Okojere — Technology, Innovation, Security">`;
+  brand.innerHTML = `<img class="brand-logo" src="${logoPath}" width="480" height="212" alt="John Okojere — Technology, Innovation, Security">`;
 }
 
-menuButton?.addEventListener('click', () => {
-  const open = menu.classList.toggle('open');
-  menuButton.setAttribute('aria-expanded', String(open));
-});
+const setMenu = (open) => {
+  menu?.classList.toggle('open', open);
+  menuButton?.setAttribute('aria-expanded', String(open));
+  if (menuButton) menuButton.textContent = open ? 'Close ×' : 'Menu +';
+};
 
-menu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
-  menu.classList.remove('open');
-  menuButton?.setAttribute('aria-expanded', 'false');
-}));
+menuButton?.addEventListener('click', () => setMenu(!menu.classList.contains('open')));
+menu?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
 
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
 
-const footer = document.querySelector('footer');
-if (footer && !footer.querySelector('a[href*="linkedin.com/in/okojere"]')) {
-  const socialNav = document.createElement('nav');
-  socialNav.className = 'footer-social';
-  socialNav.setAttribute('aria-label', 'John Okojere contact links');
-  socialNav.innerHTML = [
-    '<a href="mailto:nnaokojere@gmail.com">Email</a>',
-    '<a href="https://www.nnaokojere.space" target="_blank" rel="noopener noreferrer">Website</a>',
-    '<a href="https://www.linkedin.com/in/okojere/" target="_blank" rel="noopener noreferrer">LinkedIn</a>',
-    '<a href="https://www.instagram.com/john_okojere" target="_blank" rel="noopener noreferrer">Instagram</a>',
-    '<a href="https://github.com/john-okojere" target="_blank" rel="noopener noreferrer">GitHub</a>',
-    '<a href="https://x.com/JohnOkojere" target="_blank" rel="noopener noreferrer">X / Twitter</a>'
-  ].join('');
-  footer.insertBefore(socialNav, footer.querySelector('small'));
-}
+document.querySelectorAll('[data-copy]').forEach((button) => button.addEventListener('click', async () => {
+  const text = document.getElementById(button.dataset.copy)?.textContent.trim();
+  if (!text) return;
+  try {
+    await navigator.clipboard.writeText(text);
+    button.textContent = 'Copied ✓';
+  } catch {
+    button.textContent = 'Select text to copy';
+  }
+  setTimeout(() => { button.textContent = 'Copy bio'; }, 2000);
+}));
